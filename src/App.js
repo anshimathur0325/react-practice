@@ -26,8 +26,9 @@ function App() {
     <About />
     <Contact />
     <Projects />
-    <Skills />
     <Testimonials />
+    <Skills />
+    
   </main>
   );
 }
