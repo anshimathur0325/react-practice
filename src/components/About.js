@@ -5,6 +5,8 @@ export default function About(){
         <section id="about">
             
             <body>
+            <img src={require("./images/ans.jpeg")}/>
+
                 <h1>
                     Hi I'm Anshi.
                 </h1>
