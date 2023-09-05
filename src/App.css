@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body{
+  text-align:center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav{
+  background-color: #588b8b ;
+  color:white;
+  padding: 1.5em;
+}
+.proj{
+  background-color: #ffd5c2;
+  color:white;
+  float: left;
+  width: 75%;
+}
+.proj2{
+  background-color: #ffd5c2;
+  color:white;
+  float: right;
+  width: 75%;
 }
