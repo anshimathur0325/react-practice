@@ -46,19 +46,27 @@ body{
 }
 .proj{
   background-color: #ffd5c2;
-  color:white;
+  color:black;
   float: left;
   width: 75%;
+  padding: 1em;
 }
 .proj2{
   background-color: #ffd5c2;
-  color:white;
+  color: black;
   float: right;
   width: 75%;
+  padding:1em;
 }
 .proj3{
   background-color: white;
   color:white;
   float: right;
   width: 75%;
+}
+img{
+  padding:1em;
+  width: 25px;%;
+  height:25%;
+  border-radius: 10em;
 }
