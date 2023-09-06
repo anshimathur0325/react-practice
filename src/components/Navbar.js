@@ -4,7 +4,7 @@ export default function Navbar(){
         <section id="navbar">
             
             <body class='nav'>
-                <p>:|</p>
+                <a href="https://anshimathur.netlify.app/">Older Page</a>
             </body>
             
         </section>
