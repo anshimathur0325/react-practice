@@ -43,6 +43,7 @@ body{
   background-color: #588b8b ;
   color:white;
   padding: 1.5em;
+  height: 5em;
 }
 .proj{
   background-color: #ffd5c2;
@@ -69,4 +70,32 @@ img{
   width: 25%;
   height:25%;
   border-radius: 10em;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+nav{
+  background-color: #588b8b ;
+  padding:1em;
+  border-style:black;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  width: max-content;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 2rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.1rem;
+  color:lightsalmon
 }

@@ -4,7 +4,10 @@ export default function Navbar(){
         <section id="navbar">
             
             <body class='nav'>
-                <a href="https://anshimathur.netlify.app/">Older Page</a>
+                    <nav>
+                        <a href="https://anshimathur.netlify.app/">Older Page</a>
+                        <a href="https://www.linkedin.com/in/anshi-mathur-770688236/">LinkedIn</a>
+                    </nav>
             </body>
             
         </section>
