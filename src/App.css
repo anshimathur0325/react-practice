@@ -98,7 +98,7 @@ nav a {
   color: #344E41;
   text-decoration: none;
   transition: 0.5s;
-  border-radius: 50%;
+  border-radius: 3em;
 
 }
 nav a:hover {
