@@ -5,11 +5,12 @@ export default function About(){
         <section id="about">
             
             <body>
-            <img src={require("./images/ans.jpeg")}/>
 
                 <h1>
                     Hi I'm Anshi.
                 </h1>
+                <img src={require("./images/ans.jpeg")}/>
+
                 <p>Statistics and Computer Science Student at UIUC</p>
             </body>
             

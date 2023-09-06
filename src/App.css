@@ -88,7 +88,7 @@ nav{
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  background-color: #588b8b;
+  background-color: #588b8b34;
   border-radius:3em;
   backdrop-filter:blur(50px);
   top: 0.3rem;
