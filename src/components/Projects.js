@@ -8,6 +8,7 @@ export default function Projects(){
                 </h3>
                 <ul>
                 <li>Created a machine learning application using Flask to predict a person's risk for diabetes.</li>
+                <br/>
                 <li>Posted article on LinkedIn about lifestyles that increase risk of brain stroke.</li>
                 </ul>
             </body>

@@ -98,7 +98,12 @@ nav a {
   color: #344E41;
   text-decoration: none;
   transition: 0.5s;
+  border-radius: 50%;
+
 }
 nav a:hover {
   background: rgba(29, 48, 71, 0.3);
+}
+li{
+  list-style-type: none;
 }
