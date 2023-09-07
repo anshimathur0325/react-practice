@@ -29,10 +29,11 @@ function App() {
 
     <About />
     <Contact />
+    <Testimonials />
     <Projects />
     <Testimonials />
     <Skills />
-    
+    <Testimonials />
   </main>
   );
 }
