@@ -3,7 +3,7 @@ export default function Testimonials(){
     return(
         <section id="projects">
             <body class='proj3'>
-                <p>" "</p>
+                <p></p>
             </body>
         </section>
     )

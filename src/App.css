@@ -3,7 +3,11 @@
 }
 body{
   text-align:center;
+  background-color: #FAE8EB;
+  color:#0A014F;
+
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,7 +20,7 @@ body{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0A014F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -40,30 +44,29 @@ body{
 }
 
 .nav{
-  background-color: #588b8b ;
-  color:white;
+  background-color: #CD9FCC ;
   padding: 1.5em;
   height: 1.5em;
 }
 .proj{
-  background-color: #ffd5c2;
-  color:black;
+  background-color: #F6CACA;
+  color:#0A014F;
   float: left;
   width: 75%;
   padding: 1em;
 }
 .proj2{
-  background-color: #ffd5c2;
-  color: black;
+  background-color: #E4C2C6;
+  color: #0A014F;
   float: right;
   width: 75%;
   padding:1em;
 }
 .proj3{
   background-color: white;
-  color:white;
-  float: right;
-  width: 75%;
+  color:#0A014F;
+  float: left;
+  width: 100%;
 }
 img{
   padding:1em;
@@ -88,21 +91,21 @@ nav{
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  background-color: #588b8b34;
+  background-color: #cd9fcc3d;
   border-radius:3em;
   backdrop-filter:blur(50px);
   top: 0.3rem;
 }
 nav a {
   align-items: center;
-  color: #344E41;
+  color: #CD9FCC;
   text-decoration: none;
   transition: 0.5s;
   border-radius: 3em;
 
 }
 nav a:hover {
-  background: rgba(29, 48, 71, 0.3);
+  background:#CD9FCC;
 }
 li{
   list-style-type: none;
