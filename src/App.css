@@ -51,14 +51,14 @@ body{
 .proj{
   color:#0A014F;
   display:block;
-  width: 75%;
+  width: 85%;
   padding: 1em;
   text-align: left;
   border-radius: 2em;
   border: 5px solid;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px
+  margin-bottom: 4em;
 }
 
 .proj:hover{
@@ -81,13 +81,15 @@ body{
 .proj4{
   color:#0A014F;
   display:block;
-  width: 75%;
+  width: 85%;
   padding: 1em;
   text-align: left;
   border-radius: 2em;
   border: 5px solid;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+  margin-bottom: 2em;
+}
 .proj3{
   background-color: white;
   color:#0A014F;
@@ -145,19 +147,19 @@ li{
 .left{
   float:left;
   width:47%;
+  margin-bottom: 2em;
 
 }
 .right{
   float:right;
   width:47%;
+  margin-bottom: 2em;
 }
 .experience__container > div {
   background: var(--color-bg-variant);
   border-radius: 2rem;
   border: 1px solid transparent;
-  transition: var(--transition);
-  margin: 5px;
-}
+  transition: var(--transition);}
 
 .experience__container > div:hover {
   background-color: #78bbe03e;
@@ -187,4 +189,58 @@ li{
 iframe{
   border-radius: 1.2em;
 }
+.footer{
+  background-color: rgb(151, 148, 148);
+  display:block;
+  height:25%;
+}
 
+footer {
+  background: var(--color-primary);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+
+}
+
+footer a {
+  color: var(--color-bg);
+}
+
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer__socials a {
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border-color: var(--color-bg);
+}
+@media screen and (max-width: 600px){
+  .permalinks {
+      flex-direction: column;
+  }
+
+  .footer__socials {
+      margin-bottom: 2.6rem;
+  }
+}

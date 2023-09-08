@@ -28,13 +28,27 @@ function App() {
 
     <MoreAbout />
     <Contact />
-    <Testimonials />
     <Projects />
-    <Testimonials />
     
     <Experience />
-
-    <Testimonials/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <Footer />
 
   </main>
   );
