@@ -44,31 +44,50 @@ body{
 }
 
 .nav{
-  background-color: gray ;
+  background-color: rgba(128, 128, 128, 0.522) ;
   padding: 1.5em;
   height: 1.5em;
 }
 .proj{
-  background-color: lightgray;
   color:#0A014F;
-  float: left;
+  display:block;
   width: 75%;
   padding: 1em;
+  text-align: left;
+  border-radius: 2em;
+  border: 5px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px
+}
+
+.proj:hover{
+  background-color:rgba(221, 160, 221, 0.571);
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+  .proj4:hover{
+  background-color:rgba(221, 160, 221, 0.578);
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 .proj2{
-  background-color: lightgray;
+  background-color: rgba(221, 160, 221, 0.67);
   color: #0A014F;
   float: right;
   width: 75%;
   padding:1em;
 }
 .proj4{
-  background-color: lightgray;
-  color: #0A014F;
-  float: right;
+  color:#0A014F;
+  display:block;
   width: 75%;
-  padding:1em;
-}
+  padding: 1em;
+  text-align: left;
+  border-radius: 2em;
+  border: 5px solid;
+  margin-left: auto;
+  margin-right: auto;}
 .proj3{
   background-color: white;
   color:#0A014F;
@@ -98,7 +117,7 @@ nav{
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  background-color: rgba(128, 128, 128, 0.309);
+  background-color: rgba(128, 128, 128, 0.198);
   border-radius:3em;
   backdrop-filter:blur(50px);
   top: 0.3rem;
@@ -115,7 +134,7 @@ nav a:hover {
   background:gray;
 }
 li{
-  list-style-type: none;
+  list-style-type:circle;
 }
 
 
@@ -125,22 +144,23 @@ li{
 }
 .left{
   float:left;
-  width:49%;
+  width:47%;
 
 }
 .right{
   float:right;
-  width:49%;
+  width:47%;
 }
 .experience__container > div {
   background: var(--color-bg-variant);
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  margin: 5px;
 }
 
 .experience__container > div:hover {
-  background-color: #f6e5e73e;
+  background-color: #78bbe03e;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
@@ -164,5 +184,7 @@ li{
   color: var(--color-primary);
 }
 
-
+iframe{
+  border-radius: 1.2em;
+}
 
