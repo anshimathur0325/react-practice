@@ -26,7 +26,6 @@ function App() {
     <Navbar />
     <About />
 
-    <Testimonials />
     <MoreAbout />
     <Contact />
     <Testimonials />
