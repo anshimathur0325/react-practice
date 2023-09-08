@@ -62,6 +62,13 @@ body{
   width: 75%;
   padding:1em;
 }
+.proj4{
+  background-color: #E4C2C6;
+  color: #0A014F;
+  float: right;
+  width: 80%;
+  padding:1em;
+}
 .proj3{
   background-color: white;
   color:#0A014F;
@@ -110,3 +117,52 @@ nav a:hover {
 li{
   list-style-type: none;
 }
+
+
+
+.experience__container {
+  display: block;
+}
+.left{
+  float:left;
+  width:49%;
+
+}
+.right{
+  float:right;
+  width:49%;
+}
+.experience__container > div {
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.experience__container > div:hover {
+  background-color: #E4C2C6;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.experience__content {
+  display: block;
+}
+
+.experience__details {
+  display: block;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+
+
