@@ -35,6 +35,9 @@ const Experience = () => {
             <article className="experience__details">
               <h4>Git/GitHub</h4>
             </article>
+            <article className="experience__details">
+              <h4>SQL</h4>
+            </article>
           </div>
         </div>
       </div>
