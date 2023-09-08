@@ -3,7 +3,7 @@
 }
 body{
   text-align:center;
-  background-color: #FAE8EB;
+  background-color: lightblue;
   color:#0A014F;
 
 }
@@ -44,26 +44,26 @@ body{
 }
 
 .nav{
-  background-color: #CD9FCC ;
+  background-color: gray ;
   padding: 1.5em;
   height: 1.5em;
 }
 .proj{
-  background-color: #F6CACA;
+  background-color: lightgray;
   color:#0A014F;
   float: left;
   width: 75%;
   padding: 1em;
 }
 .proj2{
-  background-color: #E4C2C6;
+  background-color: lightgray;
   color: #0A014F;
   float: right;
   width: 75%;
   padding:1em;
 }
 .proj4{
-  background-color: #E4C2C6;
+  background-color: lightgray;
   color: #0A014F;
   float: right;
   width: 75%;
@@ -98,21 +98,21 @@ nav{
   flex-direction:row;
   justify-content:center;
   align-items:center;
-  background-color: #cd9fcc3d;
+  background-color: rgba(128, 128, 128, 0.309);
   border-radius:3em;
   backdrop-filter:blur(50px);
   top: 0.3rem;
 }
 nav a {
   align-items: center;
-  color: #CD9FCC;
+  color: gray;
   text-decoration: none;
   transition: 0.5s;
   border-radius: 3em;
 
 }
 nav a:hover {
-  background:#CD9FCC;
+  background:gray;
 }
 li{
   list-style-type: none;
@@ -140,7 +140,7 @@ li{
 }
 
 .experience__container > div:hover {
-  background-color: #E4C2C6;
+  background-color: #f6e5e73e;
   border-color: var(--color-primary-variant);
   cursor: default;
 }

@@ -9,7 +9,7 @@ export default function About(){
                 </h1>
                 <img src={require("./images/ans.jpeg")}/>
 
-                <p>Statistics and Computer Science Student at UIUC</p>
+                <p><i>Statistics and Computer Science Student at UIUC</i></p>
             </body>
             
         </section>
