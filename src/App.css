@@ -56,8 +56,8 @@ body{
   text-align: left;
   border-radius: 2em;
   border: 5px solid;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 4em;
 }
 
@@ -86,8 +86,8 @@ body{
   text-align: left;
   border-radius: 2em;
   border: 5px solid;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2em;
 }
 .proj3{
