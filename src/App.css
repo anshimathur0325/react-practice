@@ -167,11 +167,12 @@ li{
 .experience__container > div {
   background: var(--color-bg-variant);
   border-radius: 2rem;
+  background-color: #78bce094;
   border: 1px solid transparent;
   transition: var(--transition);}
 
 .experience__container > div:hover {
-  background-color: #78bbe03e;
+  background-color: #78bce000;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
