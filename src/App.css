@@ -154,13 +154,15 @@ li{
   float:left;
   width:45%;
   margin-bottom: 2em;
-  margin-left:1em;
+  margin-left:0.5em;
+  margin-right:.1em;
 }
 .right{
   float:right;
   width:45%;
   margin-bottom: 2em;
-  margin-right:1em;
+  margin-right:0.5em;
+  margin-left: .1em;
 }
 .experience__container > div {
   background: var(--color-bg-variant);
