@@ -7,7 +7,7 @@ export default function About(){
                 <h1>
                     Hi, I'm Anshi.
                 </h1>
-                <img class="pic" src={require("./images/ans.jpeg")}/>
+                <img class="pic" alt ="Anshi Mathur" src={require("./images/ans.JPG") }/>
 
                 <p><i>Statistics and Computer Science Student at UIUC</i></p>
             </body>

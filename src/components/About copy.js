@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = () => {
   return (
     <section id="experience">
-
+      <hr></hr>
       <div className="container experience__container">
         <div className="left">
           <h3>Front-end Development</h3>
@@ -23,6 +23,7 @@ const Experience = () => {
             </div>
       
         </div>
+        <br></br>
         <div className="right">
           <h3>Back-end Development</h3>
           <div className="experience__content">
@@ -41,6 +42,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      <hr></hr>
     </section>
   )
 }

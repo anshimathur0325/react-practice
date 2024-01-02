@@ -5,7 +5,7 @@ export default function Footer(){
         <section id="projects">
             <div class='footer'>
             <footer>
-            <h2>Please Contact Me</h2>
+            <h2>How to Contact Me:</h2>
             <div className="footer__socials">
             <a href="mailto:anshimathur0325@gmail.com">Email</a>    
             <a href="https://www.linkedin.com/in/anshi-mathur-770688236" target="_blank" rel="noreferrer" >LinkedIn</a>

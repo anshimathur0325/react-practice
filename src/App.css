@@ -3,8 +3,8 @@
 }
 body{
   text-align:center;
-  background-color: lightblue;
-  color:#0A014F;
+  background-color: rgb(46, 53, 56);
+  color:#ffffff;
   font-size: 1.25em;
 }
 
@@ -49,25 +49,29 @@ body{
   height: 1.5em;
 }
 .proj{
-  color:#0A014F;
+  color:white;
   display:block;
   width: 85%;
   padding: 1em;
   text-align: left;
   border-radius: 2em;
   border: 5px solid;
+  border-color:#96c4e1;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4em;
+  background-color: #3a6ddb44;
+  transition: 0s background-color;
+  transition-delay:0.10s;
 }
 
 .proj:hover{
-  background-color:rgba(221, 160, 221, 0.571);
+  background-color:#61dafb00;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
   .proj4:hover{
-  background-color:rgba(221, 160, 221, 0.578);
+  background-color: #61dafb00;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
@@ -79,20 +83,24 @@ body{
   padding:1em;
 }
 .proj4{
-  color:#0A014F;
+  color:white;
+  background-color: #3a6ddb44;
   display:block;
   width: 85%;
   padding: 1em;
   text-align: left;
   border-radius: 2em;
   border: 5px solid;
+  border-color: #96c4e1;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
+  transition: 0s background-color;
+  transition-delay:0.10s;
 }
 .proj3{
   background-color: white;
-  color:#0A014F;
+  color:#96c4e1;
   float: left;
   width: 100%;
 }
@@ -103,10 +111,10 @@ img{
   border-radius: 10em;
 }
 .pic{
-  padding:1em;
-  width: 35%;
-  height:35%;
-  border-radius: 10em;
+  width: 25%;
+  height:25%;
+  border-radius:5em;
+
 }
 a{
   color:white;
@@ -119,6 +127,7 @@ nav{
   z-index: 2;
   position: fixed;
   left: 50%;
+  margin-top: 4px;
   transform: translateX(-50%);
   text-align: center;
   display:flex;
@@ -149,21 +158,10 @@ li{
 
 .experience__container {
   display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
-.left{
-  float:left;
-  width:45%;
-  margin-bottom: 2em;
-  margin-left:0.5em;
-  margin-right:.1em;
-}
-.right{
-  float:right;
-  width:45%;
-  margin-bottom: 2em;
-  margin-right:0.5em;
-  margin-left: .1em;
-}
+
 .experience__container > div {
   background: var(--color-bg-variant);
   border-radius: 2rem;
