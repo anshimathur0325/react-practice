@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import About from "./components/About"
-import Contact from "./components/Contact"
+import Certificates from "./components/Certificates"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Footer from "./components/Footer"
@@ -16,12 +16,11 @@ function App() {
     <About />
 
     <MoreAbout />
-    <Contact />
     <Projects />
-    
+
     <Experience />
-    
-    
+    <Certificates />
+
     <Footer />
 
   </main>

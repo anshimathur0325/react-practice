@@ -4,7 +4,9 @@ const Experience = () => {
   return (
     <section id="experience">
       <hr></hr>
+      <h2>My Skills</h2>
       <div className="container experience__container">
+        
         <div className="left">
           <h3>Front-end Development</h3>
           <div className="experience__content">
