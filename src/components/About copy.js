@@ -22,7 +22,11 @@ const Experience = () => {
             <article className="experience__details">
               <h4>React</h4>
             </article>
+            <article className="experience__details">
+              <h4>Figma</h4>
+            </article>
             </div>
+            
       
         </div>
         <br></br>
@@ -40,6 +44,9 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <h4>SQL</h4>
+            </article>
+            <article className="experience__details">
+              <h4>R</h4>
             </article>
           </div>
         </div>

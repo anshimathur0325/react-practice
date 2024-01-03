@@ -10,11 +10,12 @@ import Experience from './components/About copy';
 function App() {
   return (
     
-  <main className="text-gray-499 bg-gray-900 body-font">
+  <main>
 
     <Navbar />
     <About />
-
+    <br></br>
+    <br></br>
     <MoreAbout />
     <Projects />
 
