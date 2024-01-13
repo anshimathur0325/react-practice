@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2d77e66.css",
-    "main.js": "/static/js/main.6335a904.js",
+    "main.css": "/static/css/main.9c4fe008.css",
+    "main.js": "/static/js/main.5971b0bd.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/ans.JPG": "/static/media/ans.aaa2213519dabf29b0aa.JPG",
-    "static/media/lines_-_4760 (540p).mp4": "/static/media/lines_-_4760 (540p).064eccd66d7708681ed9.mp4",
     "static/media/Coursera CVUF6UURTH9H (1).pdf": "/static/media/Coursera CVUF6UURTH9H (1).6d73a2b09108e62c2773.pdf",
     "static/media/Coursera QW5WTPWAP78Z (1).pdf": "/static/media/Coursera QW5WTPWAP78Z (1).ce43aa12767af8efafe0.pdf",
     "static/media/Cert751145612758.pdf": "/static/media/Cert751145612758.fbeb344945260a614374.pdf",
-    "static/media/4312866.jpg": "/static/media/4312866.efc73c8b576d098a1021.jpg",
     "static/media/png2pdf.pdf": "/static/media/png2pdf.6c1b89cd72d95a7c82e1.pdf",
+    "static/media/3d-render-network-communications-design-structure-with-connecting-lines-dots_1048-13854.jpg": "/static/media/3d-render-network-communications-design-structure-with-connecting-lines-dots_1048-13854.4945352ef6023a6ab662.jpg",
     "index.html": "/index.html",
-    "main.e2d77e66.css.map": "/static/css/main.e2d77e66.css.map",
-    "main.6335a904.js.map": "/static/js/main.6335a904.js.map",
+    "main.9c4fe008.css.map": "/static/css/main.9c4fe008.css.map",
+    "main.5971b0bd.js.map": "/static/js/main.5971b0bd.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d77e66.css",
-    "static/js/main.6335a904.js"
+    "static/css/main.9c4fe008.css",
+    "static/js/main.5971b0bd.js"
   ]
 }

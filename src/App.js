@@ -13,6 +13,9 @@ function App() {
   <main>
 
     <Navbar />
+    <br></br>
+    <br></br>
+    <br></br>
     <About />
     <br></br>
     <br></br>

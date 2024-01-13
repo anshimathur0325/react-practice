@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./images/4312866.jpg"; 
+import image from "./images/3d-render-network-communications-design-structure-with-connecting-lines-dots_1048-13854.jpg"; 
 export default function About(){
     
     return(
