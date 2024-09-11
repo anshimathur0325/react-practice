@@ -106,12 +106,7 @@ img{
   height:35%;
   border-radius: 10em;
 }
-.pic{
-  width: 9em;
-  height:12.5em;
-  border-radius:3em;
-  border: 5px solid white;
-}
+
 a{
   color:white;
   text-decoration: none;
@@ -262,7 +257,7 @@ footer a {
 }
 
 .background-container {
-  height: 100vh; /* 100% of the viewport height */
+  height: 65vh; /* 100% of the viewport height */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -271,6 +266,8 @@ footer a {
   justify-content: center;
   text-align: center;
   background-color: #000000;
+  justify-content: space-between;
+  margin-top: 35vh;
 }
 .text-container {
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent white background */
@@ -281,4 +278,5 @@ footer a {
 
 .clickable-gif {
   cursor: pointer;
+  margin-bottom: 1em;
 }

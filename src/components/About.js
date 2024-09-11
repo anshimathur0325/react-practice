@@ -9,7 +9,7 @@ export default function About({ scrollToMoreAbout }) {
           <h1>Hi, I'm Anshi.</h1>
           <p><i>Statistics and Computer Science Student at UIUC</i></p>
         </div>
-        {/* GIF with onClick handler */}
+        
         <div onClick={scrollToMoreAbout} className="clickable-gif">
           <img src={image} className="car" alt="Animated car GIF" />
         </div>
