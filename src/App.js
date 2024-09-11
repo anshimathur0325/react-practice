@@ -7,19 +7,26 @@ import Projects from "./components/Projects"
 import Footer from "./components/Footer"
 import MoreAbout from './components/MoreAbout';
 import Experience from './components/About copy';
+import { useRef } from "react";
+
 function App() {
+  const moreAboutRef = useRef(null);
+
+  // Function to scroll to MoreAbout section
+  const scrollToMoreAbout = () => {
+    if (moreAboutRef.current) {
+      moreAboutRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     
   <main>
 
     <Navbar />
+    <About scrollToMoreAbout={scrollToMoreAbout}/>
     <br></br>
     <br></br>
-    <br></br>
-    <About />
-    <br></br>
-    <br></br>
-    <MoreAbout />
+    <MoreAbout ref={moreAboutRef} />
     <Projects />
 
     <Experience />
