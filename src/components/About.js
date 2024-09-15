@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./images/download (1).gif";
+import image from "./images/output-onlinegiftools.gif";
 
 export default function About({ scrollToMoreAbout }) {
   return (
