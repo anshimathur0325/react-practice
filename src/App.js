@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import MoreAbout from './components/MoreAbout';
-import Experience from './components/About copy';
+import Skills from './components/Skills';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
@@ -87,7 +87,7 @@ function App() {
       <br></br>
       <MoreAbout ref={moreAboutRef} />
       <Projects />
-      <Experience />
+      <Skills />
       <Footer />
     </main>
   );

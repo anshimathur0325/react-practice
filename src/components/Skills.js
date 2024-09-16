@@ -1,28 +1,28 @@
 import React from 'react';
 
-const Experience = () => {
+const skill = () => {
   return (
-    <section id="experience">
+    <section id="skill">
       <hr></hr>
       <h2>My Skills</h2>
-      <div className="container experience__container">
+      <div className="container skill__container">
         
         <div className="left">
           <h3>Front-end Development</h3>
-          <div className="experience__content">
-          <article className="experience__details">
+          <div className="skill__content">
+          <article className="skill__details">
               <h4>HTML</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>CSS</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>JavaScript</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>React</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>Figma</h4>
             </article>
             </div>
@@ -32,20 +32,20 @@ const Experience = () => {
         <br></br>
         <div className="right">
           <h3>Back-end Development</h3>
-          <div className="experience__content">
-          <article className="experience__details">
+          <div className="skill__content">
+          <article className="skill__details">
               <h4>Python</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>Java</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>Git/GitHub</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>SQL</h4>
             </article>
-            <article className="experience__details">
+            <article className="skill__details">
               <h4>R</h4>
             </article>
           </div>
@@ -56,4 +56,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default skill

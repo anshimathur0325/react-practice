@@ -14,7 +14,7 @@ export default function Projects(){
                 <ul>
                 <li>Created a machine learning application using Flask to predict a person's risk for diabetes.</li>
                 </ul>
-                <embed src="https://diabetes-app-flask.herokuapp.com/" width={"100%"} height={450} style={{borderRadius:20}}/>
+                <embed src="https://diabetes-app-flask.herokuapp.com/" width={"100%"} height={450} style={{borderRadius:'1.2em'}}/>
             </body>
         </section>
     )
