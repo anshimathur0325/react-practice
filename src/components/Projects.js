@@ -7,14 +7,14 @@ export default function Projects(){
                     Personal Projects
                 </h3>
                 <ul>
-                <li>Created a machine learning application using Flask to predict a person's risk for diabetes.</li>
+                <li>Created a Hugging Face Space that predicts if a student is prone to dropout from university.</li>
                 </ul>
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6983966954004914177" height="200" width="100%" frameborder="1" allowfullscreen="" title="Embedded post"></iframe>
+                <p><iframe title= 'hugging face website' src="https://anshimathur0325-dropoutprediction.hf.space" frameborder="0"	width="100%"	height="450"></iframe></p>
                 <br/>
                 <ul>
-                <li>Posted article on LinkedIn about lifestyles that increase risk of brain stroke.</li>
+                <li>Created a machine learning application using Flask to predict a person's risk for diabetes.</li>
                 </ul>
-                <p><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6981465057809358848" height="200" width="100%" frameborder="1" allowfullscreen="" title="Embedded post"></iframe></p>
+                <embed src="https://diabetes-app-flask.herokuapp.com/" width={"100%"} height={450} style={{borderRadius:20}}/>
             </body>
         </section>
     )

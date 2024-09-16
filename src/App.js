@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useRef, useEffect } from "react";
 import About from "./components/About";
-import Certificates from "./components/Certificates";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
@@ -90,7 +89,6 @@ function App() {
       <MoreAbout ref={moreAboutRef} />
       <Projects />
       <Experience />
-      <Certificates />
       <Footer />
     </main>
   );
