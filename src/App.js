@@ -30,8 +30,7 @@ function App() {
     }
 
     // Create and add a rotating cube
-    const cubeGeometry = new THREE.TorusKnotGeometry( 5, 1, 100, 16 ); // Radius, tube radius, radial segments, tubular segments
-
+    const cubeGeometry = new THREE.TorusKnotGeometry(5, 1, 100, 16); // Radius, tube radius, radial segments, tubular segments
     const cubeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff });
     const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
     scene.add(cube);
@@ -41,16 +40,16 @@ function App() {
 
     // Add orbit controls
     const controls = new OrbitControls(camera, renderer.domElement);
-    controls.enableDamping = true;
-    controls.dampingFactor = 0.25;
-    controls.enableZoom = true;
+    controls.enableRotate = false; // Disable rotation
+    controls.enableZoom = false; // Disable zoom
+    controls.enablePan = false; // Disable panning
+    controls.enabled = false; // Completely disable controls if not needed
 
     // Animation loop
     const animate = () => {
       requestAnimationFrame(animate);
       cube.rotation.x += 0.001;
       cube.rotation.y += 0.001;
-      controls.update();
       renderer.render(scene, camera);
     };
     animate();
