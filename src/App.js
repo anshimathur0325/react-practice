@@ -29,11 +29,22 @@ function App() {
       console.error('Canvas element not found.');
     }
 
-    // Create and add a rotating cube
-    const cubeGeometry = new THREE.TorusKnotGeometry(5, 1, 100, 16); // Radius, tube radius, radial segments, tubular segments
-    const cubeMaterial = new THREE.MeshBasicMaterial({ color: 0x0000ff });
-    const cube = new THREE.Mesh(cubeGeometry, cubeMaterial);
-    scene.add(cube);
+    // Create and add a blue torus knot geometry
+    const geometry = new THREE.TorusKnotGeometry(5, 1, 100, 16); // Radius, tube radius, radial segments, tubular segments
+    const blueMaterial = new THREE.MeshBasicMaterial({ color: '#0000FF', transparent: true,
+    opacity: 0.8 }); // Blue color material
+    const wireframeMaterial = new THREE.MeshBasicMaterial({
+      color: '#61dafb',
+      wireframe: true,// 50% transparent
+    });
+    
+    // Create the blue mesh and the wireframe
+    const blueMesh = new THREE.Mesh(geometry, blueMaterial); // Blue object
+    const wireframeMesh = new THREE.Mesh(geometry, wireframeMaterial); // Wireframe overlay
+
+    // Add both to the scene
+    scene.add(blueMesh);
+    scene.add(wireframeMesh);
 
     // Set up camera position
     camera.position.z = 5;
@@ -48,8 +59,10 @@ function App() {
     // Animation loop
     const animate = () => {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.001;
-      cube.rotation.y += 0.001;
+      blueMesh.rotation.x += 0.001; // Slow down the rotation speed
+      blueMesh.rotation.y += 0.001;
+      wireframeMesh.rotation.x += 0.001; // Rotate the wireframe at the same speed
+      wireframeMesh.rotation.y += 0.001;
       renderer.render(scene, camera);
     };
     animate();
