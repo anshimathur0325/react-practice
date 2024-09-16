@@ -121,7 +121,7 @@ nav a:hover {
 .text-container {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 1.2em;
   color: white;
 }
 
