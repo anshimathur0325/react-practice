@@ -37,7 +37,7 @@ function App() {
       color: '#61dafb',
       wireframe: true,// 50% transparent
     });
-    
+       
     // Create the blue mesh and the wireframe
     const blueMesh = new THREE.Mesh(geometry, blueMaterial); // Blue object
     const wireframeMesh = new THREE.Mesh(geometry, wireframeMaterial); // Wireframe overlay
