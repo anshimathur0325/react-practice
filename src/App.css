@@ -124,8 +124,8 @@ nav img, nav svg {
   }
 
   nav img, nav svg {
-    width: 2.5vw; /* Adjust icon size for small screens */
-    min-width: 18px; /* Prevent icons from shrinking too much */
+    width: 100%; /* Adjust icon size for small screens */
+    min-width: 50%; /* Prevent icons from shrinking too much */
   }
 
   nav a {
