@@ -118,19 +118,13 @@ nav img, nav svg {
 
 /* Media queries for smaller screen sizes */
 @media screen and (max-width: 600px) {
-  nav {
-    font-size: 0.75rem; /* Even smaller font size on mobile */
-    padding: 0.1em 0.1em; /* Smaller padding */
-  }
-
+  
   nav img, nav svg {
-    width: 100%; /* Adjust icon size for small screens */
-    min-width: 50%; /* Prevent icons from shrinking too much */
+    width: 1.8em;  /* Smaller icon size */
+    height: auto; /* Prevent icons from shrinking too much */
   }
 
-  nav a {
-    padding: 0.1em 0.3em; /* Reduce padding for links on smaller screens */
-  }
+  
 }
 
 .background-container {
